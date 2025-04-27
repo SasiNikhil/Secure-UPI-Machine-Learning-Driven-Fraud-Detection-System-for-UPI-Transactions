@@ -1,0 +1,130 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 19/06/2020 22:31
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-rocket:before { content: "\f100"; }
+.flaticon-globe:before { content: "\f101"; }
+.flaticon-bar-chart:before { content: "\f102"; }
+.flaticon-business-and-finance:before { content: "\f103"; }
+.flaticon-bar-chart-1:before { content: "\f104"; }
+.flaticon-pie-cart:before { content: "\f105"; }
+.flaticon-press-conference:before { content: "\f106"; }
+.flaticon-stage:before { content: "\f107"; }
+.flaticon-graph:before { content: "\f108"; }
+.flaticon-badge:before { content: "\f109"; }
+.flaticon-first:before { content: "\f10a"; }
+.flaticon-first-position:before { content: "\f10b"; }
+.flaticon-diamond:before { content: "\f10c"; }
+.flaticon-diamond-1:before { content: "\f10d"; }
+.flaticon-location:before { content: "\f10e"; }
+.flaticon-location-1:before { content: "\f10f"; }
+.flaticon-pin:before { content: "\f110"; }
+.flaticon-call:before { content: "\f111"; }
+.flaticon-phone-ringing:before { content: "\f112"; }
+.flaticon-call-1:before { content: "\f113"; }
+.flaticon-email:before { content: "\f114"; }
+.flaticon-envelope:before { content: "\f115"; }
+.flaticon-envelope-1:before { content: "\f116"; }
+.flaticon-paper-plane:before { content: "\f117"; }
+.flaticon-drag:before { content: "\f118"; }
+.flaticon-analytics:before { content: "\f119"; }
+.flaticon-data-analysis:before { content: "\f11a"; }
+.flaticon-coding:before { content: "\f11b"; }
+.flaticon-desktop:before { content: "\f11c"; }
+.flaticon-darts:before { content: "\f11d"; }
+.flaticon-user:before { content: "\f11e"; }
+.flaticon-target:before { content: "\f11f"; }
+.flaticon-trophy:before { content: "\f120"; }
+.flaticon-favourite:before { content: "\f121"; }
+.flaticon-optimization:before { content: "\f122"; }
+.flaticon-email-1:before { content: "\f123"; }
+.flaticon-data-analytics:before { content: "\f124"; }
+.flaticon-website:before { content: "\f125"; }
+.flaticon-analytics-2:before { content: "\f126"; }
+.flaticon-analytics-1:before { content: "\f127"; }
+.flaticon-landing-page:before { content: "\f128"; }
+.flaticon-left-arrow:before { content: "\f129"; }
+.flaticon-left-arrow-1:before { content: "\f12a"; }
+.flaticon-right:before { content: "\f12b"; }
+.flaticon-left:before { content: "\f12c"; }
+    
+    $font-Flaticon-rocket: "\f100";
+    $font-Flaticon-globe: "\f101";
+    $font-Flaticon-bar-chart: "\f102";
+    $font-Flaticon-business-and-finance: "\f103";
+    $font-Flaticon-bar-chart-1: "\f104";
+    $font-Flaticon-pie-cart: "\f105";
+    $font-Flaticon-press-conference: "\f106";
+    $font-Flaticon-stage: "\f107";
+    $font-Flaticon-graph: "\f108";
+    $font-Flaticon-badge: "\f109";
+    $font-Flaticon-first: "\f10a";
+    $font-Flaticon-first-position: "\f10b";
+    $font-Flaticon-diamond: "\f10c";
+    $font-Flaticon-diamond-1: "\f10d";
+    $font-Flaticon-location: "\f10e";
+    $font-Flaticon-location-1: "\f10f";
+    $font-Flaticon-pin: "\f110";
+    $font-Flaticon-call: "\f111";
+    $font-Flaticon-phone-ringing: "\f112";
+    $font-Flaticon-call-1: "\f113";
+    $font-Flaticon-email: "\f114";
+    $font-Flaticon-envelope: "\f115";
+    $font-Flaticon-envelope-1: "\f116";
+    $font-Flaticon-paper-plane: "\f117";
+    $font-Flaticon-drag: "\f118";
+    $font-Flaticon-analytics: "\f119";
+    $font-Flaticon-data-analysis: "\f11a";
+    $font-Flaticon-coding: "\f11b";
+    $font-Flaticon-desktop: "\f11c";
+    $font-Flaticon-darts: "\f11d";
+    $font-Flaticon-user: "\f11e";
+    $font-Flaticon-target: "\f11f";
+    $font-Flaticon-trophy: "\f120";
+    $font-Flaticon-favourite: "\f121";
+    $font-Flaticon-optimization: "\f122";
+    $font-Flaticon-email-1: "\f123";
+    $font-Flaticon-data-analytics: "\f124";
+    $font-Flaticon-website: "\f125";
+    $font-Flaticon-analytics-2: "\f126";
+    $font-Flaticon-analytics-1: "\f127";
+    $font-Flaticon-landing-page: "\f128";
+    $font-Flaticon-left-arrow: "\f129";
+    $font-Flaticon-left-arrow-1: "\f12a";
+    $font-Flaticon-right: "\f12b";
+    $font-Flaticon-left: "\f12c";

@@ -1,0 +1,45 @@
+Notebook
+---------
+WithoutKNN-Imputer
+-------------------
+1. Importing the packages
+2. Exploring the dataset 
+	- Diabetes data
+3. Data Processing
+	- Removing Duplicate Data
+	- Drop Cleaning  
+4. EDA of Data
+	- Correlation Matrix
+	- Sample Outcome
+5. Feature Selection 
+	- Selecting the X and y  Data 
+	- Spliting the Dataset to train and test
+6. Building the model 
+	
+	- Logistic Regression
+	- Decision Tree
+	- XGBoost
+	- SVM
+        - KNN
+	- Naive Bayes
+	- Voting Classifier (Decision Tree + XGBoost + KNN + ExtraTree) 
+	- Stacking Classifier (BaggingClassifier with RF as extimation + DT with LightGBM as Estimator for Stacking )
+7. Training and Building the model
+8. Comapring the models with accuracy, precision, recall, f1score
+9. Comparison graph are generated with score of all models.
+10. Save the model 
+
+11. Frontend is developed with help of Flask Framework, along with Registration and Login setup with support of Sqlite3DB
+12. User gives input as Feature Values 
+13. The given input is preprocessed for prediction
+14. Trained model is used for prediction
+15. Final outcome is displayed through frontend
+
+
+Extension
+----------
+In the base paper the author mentioned to use upi fraud dataset using XGBoost
+compare with other models, from which proposed model got 98.2 of accuracy respectively,
+As an extension we applied an ensemble method  combining the predictions of multiple individual models to produce a more robust and accurate final prediction. 
+However, we can further enhance the performance by exploring other ensemble techniques such as Stacking Classifier which got 99.4 of accuracy,
+As an extension we can build the front end using the flask framework for user testing and with user authentication.
